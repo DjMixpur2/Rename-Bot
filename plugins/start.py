@@ -29,7 +29,7 @@ async def start(client, message):
     except IndexError:
         id = None
 
-    loading_sticker_message = await message.reply_sticker"CAACAgUAAxkBAAKOrmdTGGlBm8w4ld2gfEZ2pTnL3oY7AAIBAAPBJDExTOWVairA1m82BA")
+    loading_sticker_message = await message.reply_sticker("CAACAgUAAxkBAAKOrmdTGGlBm8w4ld2gfEZ2pTnL3oY7AAIBAAPBJDExTOWVairA1m82BA")
     await asyncio.sleep(2)
     await loading_sticker_message.delete()
     
